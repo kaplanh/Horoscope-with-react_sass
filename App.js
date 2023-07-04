@@ -1,15 +1,9 @@
-import Navbar from "./components/navbar/Navbar";
-import { data } from "./helper/data";
-import AppStyle from "./App.scss";
-import Header from "./components/header/Header";
-import Main from "./components/main/Main";
+import Header from "./src/components/header/Header";
+
 function App() {
-    console.log(data);
     return (
-        <div className={AppStyle["body"]}>
-            <Navbar />
+        <div>
             <Header />
-            <Main />
         </div>
     );
 }

@@ -1,10 +1,17 @@
-@import "./sass/reset";
-body {
-    background: rgb(121, 103, 21);
-    background: linear-gradient(
-        223deg,
-        rgba(121, 103, 21, 1) 0%,
-        rgba(209, 213, 35, 1) 50%,
-        rgba(39, 193, 183, 1) 100%
-    );
+@import "./scss/mixins";
+@import "./scss/reset";
+@import  "./scss/variables";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap');
+
+body{
+  font-family: 'Rubik Distressed', cursive;
+  background-image: $backgroundImage;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+p{
+  font-family: 'Almendra Display', cursive;
 }

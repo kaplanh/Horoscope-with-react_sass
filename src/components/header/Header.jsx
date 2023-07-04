@@ -1,10 +1,10 @@
-import HeaderStyle from "./Header.module.scss";
-
-
+import "./Header.scss";
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <div className="header">
+      <span className="text-shadow">Who Are You?</span>
+    </div>
+  );
+};
 
-export default Header
+export default Header;
